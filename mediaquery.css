@@ -1,0 +1,281 @@
+@media(max-width: 1200px) {
+    .skill-info{
+        width: fit-content
+    }
+}
+
+@media (max-width: 986px) {
+    .edu {
+        height: 537px;
+    }
+
+}
+
+@media(max-width:881px) {
+    #ham-menu {
+        display: block;
+        cursor: pointer;
+    }
+    .header {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        left: -110%;
+        width: 100%;
+        padding: 1rem 4%;
+        background-color: var(--bg-color);
+        transition: .25s ease;
+        transition-delay: .25s;
+
+    }
+    /* .btn-box{
+        justify-content: space-around;
+        display: flex;
+        background: black;
+        width: 251px;
+        padding: 29px 0px;
+        border-radius: 13px;
+        align-items: center;
+        margin: 0;
+        height: 4px;
+    } */
+
+    .mg-rt {
+        margin-left: 33px;
+    }
+    .mg-lt {
+        margin-left: 33px;
+    }
+    .navbar.active {
+        background-color: #313131;
+        left: 0;
+        transition-delay: 0s;
+        padding-bottom: 23px;
+        
+    }
+
+    .navbar a {
+        display: block;
+        font-size: 2rem;
+        margin-bottom: 8px;
+    }
+
+    .right-abtme {
+        display: none;
+    }
+
+    .skill-btn {
+        width: 250px;
+    }
+
+}
+
+@media (max-width: 824px) {
+    .header * {
+        font-size: 20px;
+    }
+
+    .scnd-pagecontent {
+        display: block;
+    }
+
+    html {
+        font-size: small;
+    }
+
+    .second-page {
+        width: auto;
+    }
+
+    .education-content {
+        display: block;
+
+    }
+
+    .edu {
+        width: auto;
+        height: auto;
+        margin-bottom: 8px;
+    }
+}
+
+@media(max-width: 773px) {
+    .third-page {
+        display: block;
+        /* height: max-content; */
+    }
+
+    #texty {
+        width: 100%;
+
+
+    }
+
+    .third-page img {
+        display: block;
+    }
+
+    input[type=email] {
+        width: 100%;
+    }
+}
+
+@media(max-width: 663px) {
+    .first-page {
+        display: block;
+    }
+}
+
+
+/* for iphone */
+@media(max-width: 583px) {
+    .header {
+        height: 47px;
+    }
+
+    .logo-text {
+        font-size: 20px;
+    }
+
+    .title {
+        font-size: 22px;
+    }
+
+    #myphoto {
+        margin-left: 50px;
+    }
+
+    section {
+        height: auto;
+    }
+
+    html {
+        font-size: 55%;
+    }
+
+    .third-page {
+        display: block;
+        /* min-height: 60vh; */
+    }
+
+    .third-page img {
+        display: block;
+
+    }
+
+    .first-page {
+        display: block;
+    }
+
+    .scnd-pagecontent {
+        display: block;
+    }
+
+    .education-content {
+        display: block;
+
+    }
+
+    .skill-btn {
+        padding: 5px 5px;
+        font-size: 15px;
+    }
+
+    .edu {
+        margin: 0 -65px 0;
+        width: auto;
+        margin-bottom: 11px;
+        height: 412px;
+    }
+
+    .forth-page {
+        font-size: 5%;
+        display: block;
+        padding: 1rem 6% 2rem;
+
+    }
+
+    .contact-sec {
+        margin-left: 0;
+        width: 200px;
+        margin-top: 70px;
+    }
+
+    .contact-sec p {
+        margin-bottom: 12px;
+    }
+
+    #texty {
+        width: 100%;
+    }
+
+    .footer {
+        display: block;
+    }
+
+    #madew {
+        margin-bottom: 10px;
+    }
+    .cross{
+        display: flex;
+    }
+    .adress p {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    /* .skboss {
+        z-index: 99;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        display: block;
+    } */
+    .skill-info{
+        z-index: 99;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        display: none;
+        height: 60vh;
+    }
+    #hdng-skill {
+        font-size: 40px;
+
+    }
+    
+    #cnt-skill {
+        font-size: 20px;
+    }
+    
+    #skl-skill {
+        font-size: 30px;
+        font-weight: 800;
+    }
+    
+    .prct-all {
+        display: flex;
+        align-items: center;
+    }
+    
+    #prct-skill {
+        font-size: 40px;
+    }
+    
+    #prct-sign {
+        margin: 0;
+        font-size: 33px;
+        margin-left: 8px;
+    }
+
+    .skill-flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
