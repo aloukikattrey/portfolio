@@ -201,3 +201,7 @@ window.onclick = function (event) {
         $(".modal").css("display", "none");
     }
 }
+
+$('soon').click(function(){
+    alert('Feature Under Maintenance');
+})
