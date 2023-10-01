@@ -202,6 +202,6 @@ window.onclick = function (event) {
     }
 }
 
-$('soon').click(function(){
+$('.soon').click(function(){
     alert('Feature Under Maintenance');
 })
