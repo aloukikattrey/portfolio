@@ -171,7 +171,7 @@ body {
     height: 120vh;
     justify-content: center;
     background-image: url('abstract-background-concept-with-pink-gradient-waves-free-vector.jpg');
-    background-image: linear-gradient(rgb(18, 18, 18), rgb(39, 39, 39), rgb(39, 39, 39), rgb(18, 18, 18));
+/*     background-image: linear-gradient(rgb(18, 18, 18), rgb(39, 39, 39), rgb(39, 39, 39), rgb(18, 18, 18)); */
     background-size: cover;
     gap: 100px;
     min-height: 100vh;
